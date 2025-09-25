@@ -19,7 +19,7 @@ import requests
 import xml.etree.ElementTree as ET
 from selection_model import LiteratureEnhancedAgent
 from pubmed_searcher import SimplePubMedSearcher
-from fpdf import FPDF
+from fpdf2 import FPDF
 from datetime import datetime
 from pathway_analyzer import PathwayAnalyzer, PathwayVisualizer
 from sklearn.feature_selection import RFE, SelectFromModel
@@ -1292,3 +1292,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
